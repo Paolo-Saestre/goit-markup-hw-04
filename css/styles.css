@@ -119,6 +119,8 @@ img {
 }
 .front-page {
   background-color: var(--primarycolor);
+  background-image: url(people-office.jpg),
+    lightgray 0px -167.766px / 100% 139.922% no-repeat;
 }
 .header-main {
   color: var(--whitecolor);
