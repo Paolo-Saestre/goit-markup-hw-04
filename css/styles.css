@@ -119,8 +119,12 @@ img {
 }
 .front-page {
   background-color: var(--primarycolor);
-  background-image: url(people-office.jpg),
-    lightgray 0px -167.766px / 100% 139.922% no-repeat;
+  background-image: linear-gradient(
+      to bottom,
+      var(--gradient) 0%,
+      var(--gradient) 100%
+    ),
+    url(https://Paolo-Saestre.github.io/goit-markup-hw-04/images/people-office.jpg);
 }
 .header-main {
   color: var(--whitecolor);
