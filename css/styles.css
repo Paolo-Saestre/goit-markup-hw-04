@@ -478,7 +478,7 @@ img {
   padding: 16px 32px;
 }
 .customer-icon:hover {
-  color: #404bbf;
+  fill: #404bbf;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -589,4 +589,9 @@ img {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   border-right: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
+}
+.project-names::after {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
