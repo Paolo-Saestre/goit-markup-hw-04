@@ -3,9 +3,7 @@
   --primarycolor: #2e2f42;
   --whitecolor: #ffffff;
   --secondarycolor: #4d5ae5;
-  --dark: #2e2f42;
   --text: #434455;
-  --primary-brand: #4d5ae5;
   --link-active: #404bbf;
   --light: #f4f4fd;
   --cornflower: #e7e9fc;
@@ -206,6 +204,10 @@ img {
   justify-content: center;
   background-color: #4d5ae5;
   fill: white;
+}
+
+.social-icon:hover {
+  background-color: var(--link-active);
 }
 
 .header-2 {
@@ -500,7 +502,7 @@ img {
 }
 
 .customer-icon {
-  fill: #8e8f99;
+  fill: var(--light-slate);
   width: 168px;
   height: 88px;
   flex-shrink: 0;
@@ -509,7 +511,7 @@ img {
   padding: 16px 32px;
 }
 .customer-icon:hover {
-  fill: #404bbf;
+  fill: var(--link-active);
   border-color: #404bbf;
 }
 .footer-text {
@@ -555,7 +557,7 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary-brand);
+  background-color: var(--primarycolor);
   fill: white;
 }
 
