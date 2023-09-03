@@ -550,6 +550,7 @@ img {
 .footer-social-icons > li:hover,
 .footer-social-icons > li:focus {
   background-color: #31d0aa;
+  fill: #31d0aa;
 }
 
 .social-icon-footer {
@@ -559,7 +560,6 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: var(--primarycolor);
   fill: white;
 }
 
