@@ -563,6 +563,12 @@ img {
   fill: white;
 }
 
+.customers-sprites,
+.cards-portfolio,
+.button-list-portfolio {
+  cursor: pointer;
+}
+
 .main-header-portfolio {
   display: none;
 }
