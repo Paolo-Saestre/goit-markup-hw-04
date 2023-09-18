@@ -64,7 +64,9 @@
       <section class="front-page">
         <div class="container">
           <h1 class="header-main">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="order-button" data-modal-open="" type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <section class="features">
@@ -479,5 +481,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
